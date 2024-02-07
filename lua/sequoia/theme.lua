@@ -101,7 +101,7 @@ function M.setup()
 
         Special = { fg = c.fg, bg = c.bg }, -- 特殊なシンボルのデフォルト値
         -- SpecialChar    = {}, -- 特殊な文字定数
-        -- Tag            = {}, -- この上で CTRL-] を使うことができる
+        Tag = { fg = c.purple, bg = c.bg }, -- この上で CTRL-] を使うことができる
         -- Delimiter      = {}, -- 注意が必要な文字
         -- SpecialComment = {}, -- コメント内の特記事項
         -- Debug          = {}, -- デバッグ命令
